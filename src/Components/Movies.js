@@ -140,7 +140,7 @@ export default class Movies extends Component {
             //JSX
             <>
                 {this.state.movies.length === 0 ? <div className="spinner-border text-primary" role="status">
-                    <span class="visually-hidden">Loading...</span>
+                    <span className="visually-hidden">Loading...</span>
                 </div> :
                     <div className='container'>
                         <div className='row'>
